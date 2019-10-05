@@ -176,7 +176,7 @@ sidebar:
     enable: true
     img: //https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E6%BB%91%E7%A8%BD&step_word=&hs=2&pn=4&spn=0&di=10670&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=undefined&cs=3243740444%2C2640278843&os=1704572147%2C438975666&simid=4110820563%2C662230937&adpicid=0&lpn=0&ln=1226&fr=&fmq=1570268724598_R&fm=&ic=undefined&s=undefined&hd=1&latest=0&copyright=0&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fimg.wxcha.com%2Ffile%2F201610%2F28%2Ff5ee02e33b.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3F4_z%26e3Boxviw_z%26e3Bv54AzdH3Fktw5qtg2AzdH3F88a9b_z%26e3Bip4s&gsm=&rpstart=0&rpnum=0&islist=&querylist=&force=undefined # 头像的地址
     info: # 头像背后的信息
-  description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"></iframe>'
+  description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1309901145&auto=1&height=66"></iframe>'
   social:
   - title: rss
     href: /atom.xml
