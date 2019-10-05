@@ -231,7 +231,7 @@ sidebar:
   run_time:
     enable: true
     src: /public/js/run_time.js
-    start_time: '3/10/2019' # 这是我第一篇CSDN博客的时间
+    start_time: '4/10/2019' # 这是我第一篇github博客的时间
     alert: <i class="fas fa-cog fa-spin fa-fw"></i>
     day: 天
     hour: 时
@@ -243,7 +243,6 @@ sidebar:
 
 index:
   showtag:
-  - ICPC模板
 
 post:
   meta:
