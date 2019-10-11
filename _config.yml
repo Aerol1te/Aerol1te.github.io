@@ -174,7 +174,7 @@ PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己
 sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
-    img: //https://s.gravatar.com/avatar/76c04f48480ecc0c8c3d8de968cb676c?s=80 # 头像的地址
+    img: //https://www.gravatar.com/avatar/76c04f48480ecc0c8c3d8de968cb676c?s=80 # 头像的地址
     info: # 头像背后的信息
   description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1309901145&auto=0&height=66"></iframe>'
   social:
