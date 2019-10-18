@@ -175,7 +175,7 @@ sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
     img: /public/image/huaji.jpg # 头像的地址
-    info: 阿伟已经死了，你挑的嘛偶像 。 # 头像背后的信息
+    info: 什么？你竟然能看到这行字！ # 头像背后的信息
   description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1309901145&auto=0&height=66"></iframe>'
   social:
   - title: rss
