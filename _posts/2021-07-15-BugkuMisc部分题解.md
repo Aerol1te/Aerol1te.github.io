@@ -303,3 +303,29 @@ Vm0xd1NtUXlWa1pPVldoVFlUSlNjRlJVVGtOamJGWnlWMjFHVlUxV1ZqTldNakZIWVcxS1IxTnNhRmho
 这是一串base64，多次解码后得
 
 flag{y0ud1any1s1}
+
+
+
+
+
+
+
+
+
+# [color]
+
+解压后是7张图片，发现每张图片都有crc报错，通过crc爆破获取正确的宽高之后发现每张图片下方都有一串黑白间隔的色块，如下图所示
+
+![0.png](https://i.loli.net/2021/07/15/1BqoIwP8xKzET2W.png)
+
+当时就想到分别代表01,转化为二进制数。
+
+然后就尬住了，不知道下一步该怎么做，尝试了很多种方式都没有成功
+
+直到我将6串01分行放在一起，突然意识到竖着看的话是7行，如果将第一位看做0的话正好是二进制表示字符的位数
+
+![0101.jpg](https://i.loli.net/2021/07/15/WmI4rV8ijfh5Nyq.jpg)
+
+当即看了一下第一列，发现是字符"f"，这不就是flag的起始字符吗，依次转化，得到flag
+
+flag{Png1n7erEs7iof}
