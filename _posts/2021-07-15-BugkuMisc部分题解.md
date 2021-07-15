@@ -1,7 +1,7 @@
 ---
-title:Bugku Misc部分题解
+title: BugkuMisc部分题解
 categories: Misc
-date: 2021-07-15 09:10:13
+date: 2021-7-15 9:10:17
 ---
 #Poker Game
 这道题刚下载下来只给了两个图片，一个有关flag格式的提示以及一个带密码的压缩包。肯定是首先看图片，图片如下
