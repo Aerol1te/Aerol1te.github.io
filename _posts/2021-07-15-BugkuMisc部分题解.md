@@ -90,7 +90,7 @@ key:肆肆壹拾陆玖玖捌拾壹
 
 打开压缩包后hint中说key.jpg被使用python脚本加密了，根据给出的encode.py文件写出解密脚本
 
-```import os
+``` import os
 data_jpg = open('file.jpg','wb')
 
 def jpg_decode():
@@ -124,7 +124,7 @@ def data_write(process_data):
 if __name__ == '__main__':
     jpg_decode()
     data_jpg.close()
-```
+ ```
 
 解密得到图片
 
