@@ -230,7 +230,7 @@ flag{5BC925649CB0188F52E617D70929191C}
 
 开始写脚本
 
-'''python
+```python
 from PIL import Image
 with open('1.txt','r',encoding="UTF-8") as f:
     str1 = f.readlines()
@@ -248,7 +248,7 @@ for i in range(61366):
     img.putpixel((x, y), (r, g, b))
 img.show()
 img.save("1.png")
-'''
+```
 
 宽高要根据整体数据数目进行推算，基本思路是分解质因数后一个一个试，先试可能性最大的
 
