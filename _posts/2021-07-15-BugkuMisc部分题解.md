@@ -50,7 +50,7 @@ PS：这个flag是真的考验眼力，好难看清
 
 给的png图片尾部藏了一个zip文件，分离并解压后得到了一个passwd.txt
 
-![passwd.png](https://i.loli.net/2021/07/15Blw5Qm2SXTPW41L.png)
+![passwd.png](https://i.loli.net/2021/07/15/Blw5Qm2SXTPW41L.png)
 
 ![只有黑棋的棋盘.png](https://i.loli.net/2021/07/15/xksmpXSfOenubgq.png)
 
