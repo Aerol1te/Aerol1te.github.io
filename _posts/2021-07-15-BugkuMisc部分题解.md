@@ -4,6 +4,7 @@ categories: Misc
 date: 2021-7-15 9:10:17
 ---
 #Poker Game
+
 这道题刚下载下来只给了两个图片，一个有关flag格式的提示以及一个带密码的压缩包。肯定是首先看图片，图片如下
 
 ![1.jpg](https:/i.loli.net/2021/07/15/8hExinaXO5R9mUo.jpg)
@@ -46,6 +47,7 @@ flag{Poker_F@ce}
 PS：这个flag是真的考验眼力，好难看清
 
 #只有黑棋的棋盘
+
 给的png图片尾部藏了一个zip文件，分离并解压后得到了一个passwd.txt
 
 ![passwd.png](https:/i.loli.net/2021/07/15Blw5Qm2SXTPW41L.png)
