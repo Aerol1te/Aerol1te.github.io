@@ -144,3 +144,52 @@ password:SilentEye
 ![32.png](https://i.loli.net/2021/07/15/Mq4F5jSdDOufQYp.png)
 
 flag{spider-man_is_really_cool}
+
+
+
+
+
+
+
+
+
+# [图穷匕现]
+
+下载下来就是一张图
+
+![file.jpg](https://i.loli.net/2021/07/15/YoSMZL9ryI6z1Jk.jpg)
+
+根据题目名称能想到应该是在图片文件的尾部藏了东西，打开一看，果然，在尾部有一长串字符，观察形式猜想应该是一串16进制字符，复制下来转换成字符发现是一长串的坐标
+
+根据经验判断应该是要根据坐标绘图，于是我写了个脚本
+
+```python
+from PIL import Image
+MAX = 271
+#二维码大小
+with open("file.txt","r",encoding="UTF-8") as f:
+    str1 = f.read()
+    str1 = str1.split("\n")
+pic = Image.new("RGB",(MAX+1, MAX+1))
+i=0
+for x in range (0,MAX+1):
+    for y in range (0,MAX+1):
+        m = str(x)
+        n = str(y)
+        _str = '('+m+','+n+')'        
+        if(str1[i] == _str):
+            pic.putpixel([x,y],(0, 0, 0))
+            i = i+1
+        else:
+            pic.putpixel([x,y],(255,255,255))
+pic.show()
+pic.save("1.png")
+```
+
+果不其然，导出了一张二维码
+
+![1.png](https://i.loli.net/2021/07/15/iTKSY7kjWbofQaG.png)
+
+扫描二维码后得到flag
+
+flag{40fc0a979f759c8892f4dc045e28b820}
