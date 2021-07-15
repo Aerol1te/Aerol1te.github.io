@@ -70,3 +70,76 @@ PS：这个flag是真的考验眼力，好难看清
 
 flag{1t_1s_1nterest1n9}
 
+
+
+
+
+
+
+
+
+# [蜘蛛侠]
+
+下载下来的压缩包文件有密码，打开压缩包后看到注释
+
+![31.png](![](https://i.loli.net/2021/07/15/7LUj5VFm9MXTdiZ.png))
+
+将上面的字符放到百度上搜索发现是晋商使用的计数符号，转换为数字后再根据下面的capital number的提示变为汉字的大写数字
+
+key:肆肆壹拾陆玖玖捌拾壹
+
+打开压缩包后hint中说key.jpg被使用python脚本加密了，根据给出的encode.py文件写出解密脚本
+
+```import os
+data_jpg = open('file.jpg','wb')
+
+def jpg_decode():
+    with open("key.jpg", "rb") as handle:
+        size = os.path.getsize("key.jpg")
+        #print(size)
+        i = 0
+        while i < size:
+            ByteData = handle.read(1)
+            process_data = data_decode(ByteData)
+            data_write(process_data)
+            i = i + 1
+
+
+def data_decode(bytedata):
+    try:
+        data = int.from_bytes(bytedata, byteorder='big')
+        if data % 2 == 0:
+            data = (data ^ 128) + 1
+        else:
+            data = (data ^ 128) - 1
+        data = bytes([data])
+        return data
+    except ValueError as ve:
+        print(ve)
+
+
+def data_write(process_data):
+    data_jpg.write(process_data)
+
+if __name__ == '__main__':
+    jpg_decode()
+    data_jpg.close()
+```
+
+解密得到图片
+
+![file.jpg](![](https://i.loli.net/2021/07/15/Mq4F5jSdDOufQYp.png))
+
+使用010editor打开图片发现在末尾有一串多余的字符
+
+IQ2?kEcY/KK#ojDrHoR'seB
+
+猜测应该是某种编码，最后多次尝试后发现是base92，解密得
+
+password:SilentEye
+
+这就是明示了，使用SilentEye去解密图片，密码就是SilentEye
+
+![32.png](![](https://i.loli.net/2021/07/15/Mq4F5jSdDOufQYp.png))
+
+flag{spider-man_is_really_cool}
