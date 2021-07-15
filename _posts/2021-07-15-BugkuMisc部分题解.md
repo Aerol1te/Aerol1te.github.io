@@ -213,3 +213,45 @@ flag{40fc0a979f759c8892f4dc045e28b820}
 字符串：5BC925649CB0188F52E617D70929191C
 
 flag{5BC925649CB0188F52E617D70929191C}
+
+
+
+
+
+
+
+
+
+# [好多数值]
+
+这道题拿到一个txt文件，里面是很多的三个数为一组的数值，而且大部分都是255,255,255。 很自然的想到是rgb数值，那这道题就是要我们将每个点的rgb数值画在图上。
+
+![41.png](https://i.loli.net/2021/07/15/rNSyPei5spnHkx1.png)
+
+开始写脚本
+
+'''python
+from PIL import Image
+with open('1.txt','r',encoding="UTF-8") as f:
+    str1 = f.readlines()
+w = 503
+h = 61366 // w
+img = Image.new('RGB', (w, h))
+
+for i in range(61366):
+    l = str1[i][:-1].split(',')
+    r = int(l[0])
+    g = int(l[1])
+    b = int(l[2])
+    y = i % h
+    x = i // h
+    img.putpixel((x, y), (r, g, b))
+img.show()
+img.save("1.png")
+'''
+
+宽高要根据整体数据数目进行推算，基本思路是分解质因数后一个一个试，先试可能性最大的
+
+拿到图片后直接就是flag
+
+![flag.png](https://i.loli.net/2021/07/15/kl6QSrtHahJN5MF.jpg)
