@@ -82,7 +82,7 @@ flag{1t_1s_1nterest1n9}
 
 下载下来的压缩包文件有密码，打开压缩包后看到注释
 
-![31.png](![](https://i.loli.net/2021/07/15/7LUj5VFm9MXTdiZ.png))
+![31.png](https://i.loli.net/2021/07/15/7LUj5VFm9MXTdiZ.png)
 
 将上面的字符放到百度上搜索发现是晋商使用的计数符号，转换为数字后再根据下面的capital number的提示变为汉字的大写数字
 
@@ -128,7 +128,7 @@ if __name__ == '__main__':
 
 解密得到图片
 
-![file.jpg](![](https://i.loli.net/2021/07/15/Mq4F5jSdDOufQYp.png))
+![file.jpg](https://i.loli.net/2021/07/15/Mq4F5jSdDOufQYp.png)
 
 使用010editor打开图片发现在末尾有一串多余的字符
 
@@ -140,6 +140,6 @@ password:SilentEye
 
 这就是明示了，使用SilentEye去解密图片，密码就是SilentEye
 
-![32.png](![](https://i.loli.net/2021/07/15/Mq4F5jSdDOufQYp.png))
+![32.png](https://i.loli.net/2021/07/15/Mq4F5jSdDOufQYp.png)
 
 flag{spider-man_is_really_cool}
