@@ -33,7 +33,7 @@ head: # 删改前确定知道自己在做什么
   - key: name
     value: google-site-verification
   - key: content
-    value: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
+    value: fuStkW-ki7HaO8vO8Bhmrta_3NKM5nCHz3WCyEjw6W8
 - tag: meta # baidu站点验证
   var:
   - key: name
