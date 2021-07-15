@@ -128,7 +128,7 @@ if __name__ == '__main__':
 
 解密得到图片
 
-![file.jpg](https://i.loli.net/2021/07/15/Mq4F5jSdDOufQYp.png)
+![file.jpg](https://i.loli.net/2021/07/15/vT4AFxoIhK7Sa2U.jpg)
 
 使用010editor打开图片发现在末尾有一串多余的字符
 
