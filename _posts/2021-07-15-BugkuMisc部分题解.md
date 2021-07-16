@@ -1,6 +1,6 @@
 ---
 title: BugkuMisc部分题解
-categories: Misc
+tags: Misc
 date: 2021-7-15 9:10:17
 ---
 # [Poker Game]
