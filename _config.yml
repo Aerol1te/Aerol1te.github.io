@@ -187,6 +187,7 @@ sidebar:
     class: 'fab fa-github fa-fw'
   - title: friend
     href: //www.Kr0emer.com
+    class: 'fab fa-friend fa-fw'
   nav:
   - title: '<i class="fas fa-home fa-fw"></i> 首页'
     href: /
