@@ -39,7 +39,7 @@ head: # 删改前确定知道自己在做什么
   - key: name
     value: baidu-site-verification
   - key: content
-    value: I2Yqyxxpks
+    value: code-I2Yqyxxpks
 - tag: link
   var:
   - key: rel
@@ -185,6 +185,8 @@ sidebar:
   - title: github
     href: //github.com/Aerol1te
     class: 'fab fa-github fa-fw'
+  - title: friend
+    href: //www.Kr0emer.com
   nav:
   - title: '<i class="fas fa-home fa-fw"></i> 首页'
     href: /
