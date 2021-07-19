@@ -1,6 +1,6 @@
 #search-input {
   background: #000;
-  border: none;
+  border: #000;
   color: #fff;
-  width: 150%;
+  width: 100%;
 }
